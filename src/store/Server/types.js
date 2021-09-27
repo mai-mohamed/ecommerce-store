@@ -1,0 +1,1 @@
+export const SET_LOADER_ACTION = "SET_LOADER_ACTION";

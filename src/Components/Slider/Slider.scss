@@ -1,0 +1,27 @@
+.slick-arrow {
+  display: none !important;
+}
+
+.category__wrapper {
+  position: relative;
+  overflow: hidden;
+  img {
+    border-radius: 10px;
+  }
+  .category-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.205);
+    border-radius: 10px;
+
+    h4 {
+      color: white;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 40px;
+    }
+  }
+}

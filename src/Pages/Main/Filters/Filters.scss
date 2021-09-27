@@ -1,0 +1,41 @@
+.filters__wrapper {
+  border-radius: 10px;
+  .filter-legend {
+    background-color: white;
+    position: relative;
+    bottom: 15px;
+    left: 16px;
+    padding: 0 10px;
+  }
+  .color-filter__wrapper {
+    border-radius: 10px;
+  }
+  .color-filter {
+    height: 300px;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    &::-webkit-scrollbar-track {
+      border-radius: 5px;
+      margin: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: black;
+      border-radius: 5px;
+    }
+  }
+  .rating-filter {
+    border-radius: 10px;
+    span {
+      cursor: pointer !important;
+    }
+  }
+  .clear-color-filter,
+  svg {
+    color: #0b5ed7;
+  }
+}
